@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcule seu IMC</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+
+    <section class="oq">
+<h1>O que é IMC ?</h1>
+<P>IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa está 
+dentro do seu peso ideal em relação à altura. Assim, de acordo com o valor do resultado de IMC, a pessoa
+ pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.</P>
+    </section>
+
+
+  <section class="container">
+    <h1>Calcule seu IMC</h1>
+    <form action="/" id="formulario" method="POST">
+      <label for="peso">Peso</label>
+      <input type="text" id="peso" name="peso">
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" name="altura">
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+  </section>
+
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
